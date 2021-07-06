@@ -20,7 +20,7 @@
 		"bower-asset/bootstrap": "^3.4.1",
 		"bower-asset/fullcalendar": "^5.8.0",
 		"bower-asset/fullcalendar-scheduler" : "^5.8.0",
-		"bower-asset/jquery": "^3.6.0",
+		"bower-asset/jquery": "^3.5.0",
 		"bower-asset/moment": "^2.29.1"
 	},
 	"config": {
