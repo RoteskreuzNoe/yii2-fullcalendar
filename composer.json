@@ -1,0 +1,40 @@
+{
+	"name": "philippfrenzel/yii2fullcalendar",
+	"description": "Yii2 fullcalendar Widgets",
+	"keywords": ["yii2", "fullcalendar","widget"],
+	"type": "yii2-extension",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "MaGiCmAsTeR0511",
+			"email": "kurt.hohenauer@n.roteskreuz.at",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"source": "https://github.com/RoteskreuzNoe/yii2fullcalendar"
+	},
+	"minimum-stability": "stable",
+	"require": {
+		"yiisoft/yii2": "^2.0.42",
+		"bower-asset/fullcalendar": "^5.8.0",
+		"bower-asset/fullcalendar-scheduler" : "^5.8.0",
+		"bower-asset/jquery": "^3.6.0",
+		"bower-asset/moment": "^2.29.1",
+		"bower-asset/bootstrap": "^3.3.1"
+	},
+	"config": {
+	    "process-timeout": 1800,
+	      "fxp-asset": {
+		"repositories": {
+		  "bower-asset/eve": {
+		  	"type": "bower-vcs",
+		  	"url": "https://github.com/adobe-webplatform/eve.git"
+		  }
+		}
+	    }
+	},
+	"autoload": {
+		"psr-4": { "yii2fullcalendar\\": "" }
+	}
+}
