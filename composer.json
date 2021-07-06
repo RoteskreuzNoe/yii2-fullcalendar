@@ -18,7 +18,7 @@
 	"require": {
 		"yiisoft/yii2": "^2.0.42",
 		"bower-asset/bootstrap": "^3.4.1",
-		"bower-asset/fullcalendar": "^4.4.3",
+		"bower-asset/fullcalendar": "^3.10.2",
 		"bower-asset/fullcalendar-scheduler" : "^4.4.3",
 		"bower-asset/jquery": "^3.5.0",
 		"bower-asset/moment": "^2.29.1"
