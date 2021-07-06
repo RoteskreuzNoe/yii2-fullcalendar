@@ -19,6 +19,7 @@ use yii\base\Widget;
 use yii2fullcalendar\assets\CoreAsset;
 use yii2fullcalendar\assets\ThemeAsset;
 use yii2fullcalendar\assets\SchedulerAsset;
+use yii2fullcalendar\assets\PrintAsset;
 
 class yii2fullcalendar extends Widget
 {
