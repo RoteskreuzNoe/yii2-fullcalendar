@@ -1,40 +1,47 @@
 {
-	"name": "rklandesverband/yii2fullcalendar",
-	"description": "Yii2 fullcalendar Widgets",
-	"keywords": ["yii2", "fullcalendar","widget"],
-	"type": "yii2-extension",
-	"license": "MIT",
-	"authors": [
-		{
-			"name": "MaGiCmAsTeR0511",
-			"email": "kurt.hohenauer@n.roteskreuz.at",
-			"role": "Developer"
-		}
-	],
-	"support": {
-		"source": "https://github.com/RoteskreuzNoe/yii2fullcalendar"
-	},
-	"minimum-stability": "stable",
-	"require": {
-		"yiisoft/yii2": "^2.0.42",
-		"bower-asset/bootstrap": "^3.4.1",
-		"bower-asset/fullcalendar": "^3.10.2",
-		"bower-asset/fullcalendar-scheduler" : "^4.4.3",
-		"bower-asset/jquery": "^3.5.0",
-		"bower-asset/moment": "^2.29.1"
-	},
-	"config": {
-	    "process-timeout": 1800,
-	      "fxp-asset": {
-	    }
-	},
-	"repositories": [
-		{
-			"type": "composer",
-			"url": "https://asset-packagist.org"
-		}
-	],
-	"autoload": {
-		"psr-4": { "yii2fullcalendar\\": "" }
-	}
+  "name": "rklandesverband/yii2fullcalendar",
+  "description": "Yii2 fullcalendar Widgets",
+  "keywords": [
+    "yii2",
+    "fullcalendar",
+    "widget"
+  ],
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "MaGiCmAsTeR0511",
+      "email": "kurt.hohenauer@n.roteskreuz.at",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "source": "https://github.com/RoteskreuzNoe/yii2fullcalendar"
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "yiisoft/yii2": "^2.0.42",
+    "yiisoft/yii2-jui": "~2.0.0",
+    "bower-asset/bootstrap": "^3.4.1",
+    "bower-asset/fullcalendar": "^3.10.2",
+    "bower-asset/fullcalendar-scheduler": "^4.4.3",
+    "bower-asset/jquery": "^3.5.0",
+    "bower-asset/moment": "^2.29.1"
+  },
+  "config": {
+    "process-timeout": 1800,
+    "fxp-asset": {
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "yii2fullcalendar\\": ""
+    }
+  }
 }
