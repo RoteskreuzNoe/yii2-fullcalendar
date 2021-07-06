@@ -346,7 +346,7 @@ class yii2fullcalendar extends Widget
         if ($this->dayClick) {
             $options['dayClick'] = new JsExpression($this->dayClick);
         }
-        if ($this->eventMouseEnter) {
+        if ($this->eventMouseOver) {
             $options['eventMouseOver'] = new JsExpression($this->eventMouseOver);
         }
 
