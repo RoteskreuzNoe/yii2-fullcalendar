@@ -164,9 +164,9 @@ class yii2fullcalendar extends Widget
 
     /**
      * A js callback that triggered when the mouse enters an event.
-     * @var string the javascript code that implements the eventMouseEnter function
+     * @var string the javascript code that implements the eventMouseover function
      */
-    public $eventMouseOver = "";
+    public $eventMouseover = "";
 
     /**
      * A js callback that triggered when the user clicks an day.
@@ -346,8 +346,8 @@ class yii2fullcalendar extends Widget
         if ($this->dayClick) {
             $options['dayClick'] = new JsExpression($this->dayClick);
         }
-        if ($this->eventMouseOver) {
-            $options['eventMouseOver'] = new JsExpression($this->eventMouseOver);
+        if ($this->eventMouseover) {
+            $options['eventMouseover'] = new JsExpression($this->eventMouseover);
         }
 
         if (is_array($this->events) || is_string($this->events)) {
