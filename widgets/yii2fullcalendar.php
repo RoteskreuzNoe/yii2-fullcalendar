@@ -17,6 +17,7 @@ use yii\helpers\Json;
 use yii\web\JsExpression;
 use yii\base\Widget;
 use yii2fullcalendar\assets\CoreAsset;
+use yii2fullcalendar\assets\MomentAsset;
 use yii2fullcalendar\assets\ThemeAsset;
 use yii2fullcalendar\assets\SchedulerAsset;
 use yii2fullcalendar\assets\PrintAsset;
@@ -226,6 +227,7 @@ class yii2fullcalendar extends Widget
         $view = $this->getView();
 
         /** @var \yii\web\AssetBundle $assetClass */
+        MomentAsset::register($view);
         $assets = CoreAsset::register($view);
 
         //by default we load the jui theme, but if you like you can set the theme to false and nothing gets loaded....
